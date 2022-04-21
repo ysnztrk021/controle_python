@@ -5,7 +5,6 @@ def get_indexes(my_list, value_to_get):
             result.append(i)
     return result
 
-
 my_list=[1,2,3,4,5,1]
 
 numbers=[-2,2,3,0,-2,6,-2,-2,8]
