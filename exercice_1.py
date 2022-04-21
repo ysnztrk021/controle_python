@@ -1,9 +1,10 @@
 def get_indexes(my_list, value_to_get):
-    a=[]
+    result=[]
     for i in range(len(my_list)):
         if value_to_get==my_list[i]:
-            a.append(i)
-    return a
+            result.append(i)
+    return result
+
 
 my_list=[1,2,3,4,5,1]
 
