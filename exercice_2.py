@@ -1,5 +1,4 @@
 def draw_hollow_square(char_to_draw,size):
-
     for j in range(size):
         for i in range(size):
             if i == 0 or i == size - 1:
